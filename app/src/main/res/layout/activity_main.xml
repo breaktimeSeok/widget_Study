@@ -11,5 +11,21 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/team_name" />
+        android:text="@string/team_name"
+        android:textAllCaps="true"
+        android:textColor="#3F51B5"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textColor="#E91E63"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:text="여기에 사용자 이름을 입력하세요. 이름은 한 줄로 표시됩니다." />
 </LinearLayout>
